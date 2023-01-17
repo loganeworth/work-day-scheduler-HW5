@@ -62,6 +62,8 @@ $(document).ready(function () {
   //
   
   // $('hour-8', 'description').val.localStorage.getItem('hour-8', 'description')
+  // The below line is retrieving the stored in item from local storage
+  // localStorage.getItem('hour-8', 'description')
 
   $('#hour-8 .description').val(localStorage.getItem('hour-8'))
   $('#hour-9 .description').val(localStorage.getItem('hour-9'))
@@ -83,8 +85,7 @@ $(document).ready(function () {
   // })
 
 
-  // The below line is retrieving the stored in item from local storage
-  // localStorage.getItem('hour-8', 'description')
+  
   
   // TODO: Add code to display the current date in the header of the page.
   
