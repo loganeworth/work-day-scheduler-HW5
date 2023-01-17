@@ -101,7 +101,6 @@ $('#hour-17 .description').val(localStorage.getItem('hour-17'))
   // $('#currentDay').text(output)
 
   let fullCurrentDate = new Date()
-  // let currentDate = fullDate.getDate() + 
   console.log(fullCurrentDate)
   $('#currentDay').text(fullCurrentDate)
 });
