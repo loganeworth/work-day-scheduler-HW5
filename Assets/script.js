@@ -86,8 +86,7 @@ $('#hour-17 .description').val(localStorage.getItem('hour-17'))
   // localStorage.getItem('hour-8', 'description')
   
   // TODO: Add code to display the current date in the header of the page.
-  // let currentDate = date.format('MM/D/YYYY')
-  // $('#currentDay').text(currentDate)
+  
 
 
   // let d = new Date();
