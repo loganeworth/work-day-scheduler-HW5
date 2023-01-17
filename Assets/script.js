@@ -60,11 +60,6 @@ $(document).ready(function () {
   // the values of the corresponding textarea elements. HINT: How can the id
   // attribute of each time-block be used to do this?
   //
-  
-  // $('hour-8', 'description').val.localStorage.getItem('hour-8', 'description')
-  // The below line is retrieving the stored in item from local storage
-  // localStorage.getItem('hour-8', 'description')
-
   $('#hour-8 .description').val(localStorage.getItem('hour-8'))
   $('#hour-9 .description').val(localStorage.getItem('hour-9'))
   $('#hour-10 .description').val(localStorage.getItem('hour-10'))
@@ -76,6 +71,11 @@ $(document).ready(function () {
   $('#hour-16 .description').val(localStorage.getItem('hour-16'))
   $('#hour-17 .description').val(localStorage.getItem('hour-17'))
 
+
+// $('hour-8', 'description').val.localStorage.getItem('hour-8', 'description')
+  // The below line is retrieving the stored in item from local storage
+  // localStorage.getItem('hour-8', 'description')
+
   // $('.time-block').each(function() {
   //   let storedText = localStorage.getItem($(this).attr('id'))
   //   console.log(storedText)
@@ -86,9 +86,11 @@ $(document).ready(function () {
 
 
   
-  
   // TODO: Add code to display the current date in the header of the page.
   
+  let fullCurrentDate = new Date()
+  console.log(fullCurrentDate)
+  $('#currentDay').text(fullCurrentDate)
 
 
   // let d = new Date();
@@ -100,8 +102,4 @@ $(document).ready(function () {
   //   (month<10 ? '0' : '') + month + '/' +
   //   (day<10 ? '0' : '') + day;
   // $('#currentDay').text(output)
-
-  let fullCurrentDate = new Date()
-  console.log(fullCurrentDate)
-  $('#currentDay').text(fullCurrentDate)
 });
