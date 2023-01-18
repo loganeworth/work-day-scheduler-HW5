@@ -25,3 +25,9 @@ This site will be used by users to help plan their day by the hour. Inputs in th
 I would like to thank the University of Minnesota's Full Stack Coding Bootcamp for providing the source code.
 
 ## Links
+
+Deployed page:
+https://loganeworth.github.io/work-day-scheduler-HW5/
+
+Github Repository:
+https://github.com/loganeworth/work-day-scheduler-HW5
