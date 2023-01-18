@@ -12,7 +12,7 @@ While working on this app I learned a lot about bootstrap and JQuery. How to pro
 
 There is no installation process.
 
-## Scrren-Capture\
+## Scrren-Capture
 
 ![Work day scheduler](./assets/Screenshot_20230117_012809.png)
 
