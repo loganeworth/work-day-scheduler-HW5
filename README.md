@@ -14,7 +14,7 @@ There is no installation process.
 
 ## Scrren-Capture
 
-![Work day scheduler](./assets/Screenshot_20230117_012809.png)
+![Work day scheduler](./images/Screenshot_20230117_012809.png)
 
 ## Usage
 
